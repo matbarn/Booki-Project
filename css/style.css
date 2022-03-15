@@ -1,0 +1,502 @@
+@media screen and (min-width: 1600px) {
+    
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.header{
+    display: flex;
+}
+.header_style {
+    justify-content: space-between;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    }
+
+
+
+img.thumbnail {
+    width: 100px;
+}
+/* Link to sections*/
+#c1
+
+#c2
+
+.hyper_link:active {
+    border-top: solid 2px;
+    border-top-color: #0065FC;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: #0065FC;
+  }
+
+.fa-info {
+    color: #0065FC;
+}
+
+.fa-money-bill-wave{
+    color: #0065FC;
+}
+
+.fa-child {
+    color: #0065FC;
+}
+
+.fa-heart {
+    color: #0065FC;
+}
+
+.fa-dog {
+    color: #0065FC;
+}
+
+.fa-starb {
+    color: #0065FC;  
+}
+
+.fa-starg {
+    color: #F2F2F2;
+}
+
+
+
+.hyper_link {    
+    color: #000000;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.hyper_link:hover {
+    border-top: solid 2px;
+    border-top-color: #0065FC;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: #0065FC;
+}
+
+.nav {
+    display: block;
+
+}
+
+/*Search and filters*/
+.find_place {
+    padding-bottom: 10px;
+}
+.search_bar {
+    display: flex;
+    padding-top: 10px;
+}
+.search {
+    width: 100%;
+    display: flex;
+  }
+  
+  .searchTerm {    
+    border: 1px solid #F2F2F2;
+    border-right: none;
+    padding: 17px;
+    padding-right: 80px;    
+    outline: none;
+  }
+  
+  .searchTerm:focus{
+    color: #000000;
+  }
+  
+  .searchButton {
+    width: 100px;
+    height: 52px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #0065FC;
+    background: #0065FC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+    font-size: 20px;font-weight: bold;
+  }
+  
+  
+
+.filter_container {
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.filter_container_bottom_slot {
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.filter {
+    padding: 0px;
+}
+
+.pin {
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 30px;
+}
+.Filter_circle {
+    border-radius: 60px;
+    padding: 15px;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+
+.Filter_circlecolor {
+    background-color: #DEEBFF;
+    margin-left: -24px;
+}
+.filter_name{
+    font-weight: bold;    
+}
+.Filter_border {
+    display: flex;    
+    border: solid 3px;       
+    border-bottom-right-radius: 30px;
+    border-left: none;
+    border-top-right-radius: 30px;
+    width: 180px;  
+}
+
+.Filter_border_no_icon {
+    display: flex;    
+    border: solid 3px;       
+    border-bottom-right-radius: 30px;
+    border-left: none;
+    border-top-right-radius: 30px;
+    width: 60px;  
+}
+
+/*margin and colour*/
+.filter_border_color {
+    border-color: #F2F2F2;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+
+
+.filter_border_color:hover {
+    border: solid 2px;
+    border-color: #0065FC;
+}
+
+.filter_border_color_none {
+    border-color: #ffffff;
+}
+
+.i_decoration {
+    color: #0065FC;
+    border: solid 2px;
+    border-color: #F2F2F2;
+    border-radius: 50%;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+/*more than 500 padding*/
+
+.i_decoration_gap {
+    padding-left: 5px;
+}
+
+/*Main container and sub divs below*/
+.align {
+    margin-inline: 14%;
+}
+.container_titles {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.container_more {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+
+.main{
+    background-color: #ffffff;
+    display: flex;
+    }
+
+.marseillecontainer {
+    flex: none;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding: 30px;
+    margin-right: 40px;
+}
+
+.popular {
+    display: flex;
+    justify-content: space-between;
+
+}
+/*mainrow is to allow photos to stay inline of 3*/
+.mainrow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width:840px;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px
+}
+
+div.tile {
+    background-color: #ffffff;
+    flex:1;   
+    border-radius: 15px;
+    padding: 5px;
+    justify-content: space-evenly;
+    width: 180px;
+    min-width: 180px;
+    height: 185px;
+    box-shadow: 0 4px 8px 0 #e7e7e7c5;
+}
+
+
+img.main_photo {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    
+
+}
+
+.content {
+    align-content: space-evenly;
+    display: inline-grid;
+    vertical-align: middle;
+    flex-flow: column;
+    height: 35%;
+    padding-left: 15px;
+}
+
+.hotel_name {
+    font-weight: bold;
+}
+.amount {
+    font-weight: bold;
+}
+
+.containerpopular {
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding: 30px;
+    width: 365px;    
+}
+
+.tile_container_pop {
+    display: flex;
+    flex-wrap: wrap;
+    grid-row-gap: 35px;
+    grid-column-gap: 20px;
+}
+
+.tilepopular {
+    display: flex;
+    background-color: #ffffff;
+    flex:1;
+    padding: 5px;
+    border-radius: 15px;
+    width: 353px;
+    height: 130px;
+    min-width: 353px;
+    box-shadow: 0 4px 8px 0 #e7e7e7c5;
+}
+
+.most_pop {
+    display: flex;
+}
+.popular_spacing {
+    display: inline-block;
+}
+
+.photo_popular {
+    object-fit: cover;
+    width: 33%;
+    height: auto;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.content_popular {    
+    align-content: space-evenly;
+    display: inline-grid;    
+    flex-flow: column;
+    padding-left: 33px;
+}
+
+.activities_container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.big_font_title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.tile_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1365px;
+    padding-top: 20px;
+    grid-column-gap: 30px;
+}
+
+.tiles_one {
+    display: flex;
+    flex: 1;
+    grid-column-gap: 30px;
+}
+
+div.tile_active {
+    background-color: #ffffff;
+    flex:1;   
+    border-radius: 15px;
+    justify-content: space-evenly;
+    width: 305px;
+    min-width: 305px;
+    height: 465px;
+    box-shadow: 0 4px 8px 0 #e7e7e7c5;
+}
+
+img.active_photo {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.content_active {
+    align-content: space-evenly;
+    display: inline-grid;
+    vertical-align: middle;
+    flex-flow: column;
+    height: 10%;
+    padding-left: 15px;
+}
+
+div.tile_active_short {
+    background-color: #ffffff;
+    flex:1;   
+    border-radius: 15px;
+    justify-content: space-evenly;
+    width: 305px;
+    min-width: 305px;
+    height: 210px;
+    box-shadow: 0 4px 8px 0 #e7e7e7c5;
+}
+
+div.tile_active_short_mid {
+    background-color: #ffffff;
+    flex:1;   
+    border-radius: 15px;
+    justify-content: space-evenly;
+    width: 305px;
+    min-width: 305px;
+    height: 255px;
+    box-shadow: 0 4px 8px 0 #e7e7e7c5;
+}
+
+div.tile_active_short_small {
+    background-color: #ffffff;
+    flex:1;   
+    border-radius: 15px;
+    justify-content: space-evenly;
+    width: 305px;
+    min-width: 305px;
+    height: 165px;
+    box-shadow: 0 4px 8px 0 #e7e7e7c5;
+}
+
+img.active_photo_short {
+    width: 100%;
+    height: 78%;
+    object-fit: cover;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.content_active_short {
+    align-content: space-evenly;
+    display: inline-grid;
+    vertical-align: middle;
+    flex-flow: column;
+    height: 18%;
+    padding-left: 15px;
+}
+
+.short_div {
+    display: grid;
+    grid-row-gap: 45px;
+}
+
+.big_font_title_footer {
+    font-weight: bold;
+}
+
+.help_bar {
+    display: flex;
+}
+
+.about_tile {
+    flex: 1;
+    display: grid;
+    grid-gap: 10px;
+    padding: 40px;
+    background-color: #F2F2F2;
+}
+
+.our_accommodations_tile {
+    flex: 1;
+    display: grid;
+    grid-gap: 10px;
+    padding: 40px;
+    background-color: #F2F2F2;
+}
+
+.Assistance_tile {
+    flex: 1;
+    display: grid;
+    grid-gap: 10px;
+    padding: 40px;
+    background-color: #F2F2F2;
+}
+
+.hyper_link_help:active {
+    border-top-color: #0065FC;
+  }
+.hyper_link_help {    
+    color: #000000;
+    text-decoration: none;
+}
+
+.hyper_link_help:hover {
+    color: #0065FC;
+}
+}
