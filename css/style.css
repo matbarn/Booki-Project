@@ -219,7 +219,8 @@ img.thumbnail {
 
 /*Main container and sub divs below*/
 .align {
-    margin-inline: 14%;
+    margin-left: 14%;
+    margin-right: 14%;
 }
 .container_titles {
     font-size: 24px;
