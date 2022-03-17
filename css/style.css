@@ -166,7 +166,7 @@ img.thumbnail {
 }
 .Filter_border {
     display: flex;    
-    border: solid 3px;       
+    border: solid 2px;       
     border-bottom-right-radius: 30px;
     border-left: none;
     border-top-right-radius: 30px;
@@ -192,7 +192,6 @@ img.thumbnail {
 
 
 .filter_border_color:hover {
-    border: solid 2px;
     border-color: #0065FC;
 }
 
